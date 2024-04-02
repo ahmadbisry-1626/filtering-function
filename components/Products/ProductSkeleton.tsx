@@ -4,7 +4,7 @@ import { Skeleton } from '../ui/skeleton'
 const ProductSkeleton = () => {
     return (
         <div className='relative'>
-            <Skeleton className='w-full overflow-hidden rounded-lg bg-gray-200 lg:h-80'>
+            <Skeleton className='w-full overflow-hidden rounded-lg bg-gray-200 h-80'>
                 <Skeleton className='h-full w-full bg-gray-200'/>
             </Skeleton>
 

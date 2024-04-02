@@ -2,7 +2,7 @@ import type { Product as TProduct } from '@/db'
 
 const Product = ({product}: {product: TProduct}) => {
   return (
-    <div className='group relative flex flex-col gap-4 bg-gray-50 shadow-md rounded-lg'>
+    <div className='group flex flex-col gap-4 bg-gray-50 shadow-md rounded-lg'>
         <div className='w-full overflow-hidden bg-gray-200 group-hover:opacity-75 lg:h-80 rounded-t-lg'>
             <img src={product.imageId} alt='' className='h-full w-full object-cover object-center'/>
         </div>
